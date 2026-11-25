@@ -1,0 +1,7 @@
+Weapon : Shotgun
+
+This is intended as a close-range weapon. The
+grouping of buckshot pellets will spread out 
+and decrease the damage power over distance.  
+Less accurate aim and great close-up firepower 
+make this a good choice for emergencies.

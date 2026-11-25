@@ -1,0 +1,7 @@
+Weapon : Pistol
+
+This weapon has fast firing rate, but its accuracy 
+declines with distance. It is very good damage 
+for close combat, but less effective for distant 
+targets. The pistol will scare plant eaters,
+but the noise will alert dangerous carnivores.

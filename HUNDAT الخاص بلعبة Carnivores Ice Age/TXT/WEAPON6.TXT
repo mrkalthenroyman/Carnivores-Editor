@@ -1,0 +1,7 @@
+Weapon : Sniper rifle
+
+This weapon is very accurate at long distances.  
+The range of the scope goes as far as the
+binoculars, but limits your peripheral vision.
+This is not a weapon for a charging animal,
+but is deadly with distance.

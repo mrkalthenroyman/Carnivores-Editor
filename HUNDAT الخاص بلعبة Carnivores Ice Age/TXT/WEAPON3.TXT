@@ -1,0 +1,7 @@
+Weapon : Double-barelled shotgun
+
+This weapon is same as shotgun, but can
+fire two shots almost simultaneously. 
+The added noise can easily scare off
+small animals while drawing attention
+to predators.
