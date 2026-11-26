@@ -1,0 +1,218 @@
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio> $areas = "C:\Users\Mr Kalthen Roy Man\Desktop\Carnivores\HUNTDAT\AREAS"
+>>
+>> Test-Path "$areas\AREA2.MAP"
+>> Test-Path "$areas\AREA2.GRP"
+True
+True
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio> cms-inspect "$areas\AREA2.MAP" | Tee-Object ".\AREA2_MAP_inspection.json"
+{
+  "file": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.MAP",
+  "format": "Carnivores MAP v1",
+  "bytes": 2228224,
+  "sha256": "1771005b2938497d59d3b2d9c5d43eb53dced1de8b78ca601a68e1afde4a55d8",
+  "map_size": 512,
+  "height_scale": 32,
+  "planes": [
+    {
+      "name": "height_map",
+      "offset": 0,
+      "bytes": 262144
+    },
+    {
+      "name": "texture_map_1",
+      "offset": 262144,
+      "bytes": 262144
+    },
+    {
+      "name": "texture_map_2",
+      "offset": 524288,
+      "bytes": 262144
+    },
+    {
+      "name": "object_map",
+      "offset": 786432,
+      "bytes": 262144
+    },
+    {
+      "name": "flags_map",
+      "offset": 1048576,
+      "bytes": 262144
+    },
+    {
+      "name": "day_light_map",
+      "offset": 1310720,
+      "bytes": 262144
+    },
+    {
+      "name": "water_map",
+      "offset": 1572864,
+      "bytes": 262144
+    },
+    {
+      "name": "object_height_map",
+      "offset": 1835008,
+      "bytes": 262144
+    },
+    {
+      "name": "fog_map",
+      "offset": 2097152,
+      "bytes": 65536
+    },
+    {
+      "name": "ambient_map",
+      "offset": 2162688,
+      "bytes": 65536
+    }
+  ],
+  "plane_reassembly_exact": true
+}
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio> cms-inspect "$areas\AREA2.GRP" | Tee-Object ".\AREA2_GRP_inspection.json"
+{
+  "file": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.GRP",
+  "format": "Carnivores GRP v1",
+  "bytes": 285452,
+  "sha256": "056e79fe9de68ae6bc047c2be2344775e4383d952d06d5ed25133c1b6076e29b",
+  "counts": {
+    "texture_groups": 1,
+    "object_groups": 1,
+    "transitive_texture_groups": 15
+  },
+  "active_groups": {
+    "texture": [
+      "groupe 1"
+    ],
+    "object": [
+      "groupe1"
+    ],
+    "transitive_texture": [
+      "sand_to_grass",
+      "grass_to_rock",
+      "rock_to_send",
+      "ERROR",
+      "stone_to_send",
+      "rock_to_stone",
+      "grass_to_road",
+      "ERROR1",
+      "ground_to_sand",
+      "stone_to_grass",
+      "rock_to_road",
+      "Darkst_TO_LIGHT",
+      "Lightst_to_dark",
+      "stone1_3_to_ROCK1",
+      "r3c_to_GRAS1"
+    ]
+  },
+  "validation_issues": [],
+  "original_bytes_retained": true
+}
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio> Get-FileHash "$areas\AREA2.MAP" -Algorithm SHA256
+>> Get-FileHash "$areas\AREA2.GRP" -Algorithm SHA256
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          1771005B2938497D59D3B2D9C5D43EB53DCED1DE8B78CA601A68E1AFDE4A55D8       C:\Users\Mr Kalthen Roy Man\D...
+SHA256          056E79FE9DE68AE6BC047C2BE2344775E4383D952D06D5ED25133C1B6076E29B       C:\Users\Mr Kalthen Roy Man\D...
+
+
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio> python -m carnivores_map_studio.cli "$areas\AREA2.MAP"
+>> python -m carnivores_map_studio.cli "$areas\AREA2.GRP"
+{
+  "file": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.MAP",
+  "format": "Carnivores MAP v1",
+  "bytes": 2228224,
+  "sha256": "1771005b2938497d59d3b2d9c5d43eb53dced1de8b78ca601a68e1afde4a55d8",
+  "map_size": 512,
+  "height_scale": 32,
+  "planes": [
+    {
+      "name": "height_map",
+      "offset": 0,
+      "bytes": 262144
+    },
+    {
+      "name": "texture_map_1",
+      "offset": 262144,
+      "bytes": 262144
+    },
+    {
+      "name": "texture_map_2",
+      "offset": 524288,
+      "bytes": 262144
+    },
+    {
+      "name": "object_map",
+      "offset": 786432,
+      "bytes": 262144
+    },
+    {
+      "name": "flags_map",
+      "offset": 1048576,
+      "bytes": 262144
+    },
+    {
+      "name": "day_light_map",
+      "offset": 1310720,
+      "bytes": 262144
+    },
+    {
+      "name": "water_map",
+      "offset": 1572864,
+      "bytes": 262144
+    },
+    {
+      "name": "object_height_map",
+      "offset": 1835008,
+      "bytes": 262144
+    },
+    {
+      "name": "fog_map",
+      "offset": 2097152,
+      "bytes": 65536
+    },
+    {
+      "name": "ambient_map",
+      "offset": 2162688,
+      "bytes": 65536
+    }
+  ],
+  "plane_reassembly_exact": true
+}
+{
+  "file": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.GRP",
+  "format": "Carnivores GRP v1",
+  "bytes": 285452,
+  "sha256": "056e79fe9de68ae6bc047c2be2344775e4383d952d06d5ed25133c1b6076e29b",
+  "counts": {
+    "texture_groups": 1,
+    "object_groups": 1,
+    "transitive_texture_groups": 15
+  },
+  "active_groups": {
+    "texture": [
+      "groupe 1"
+    ],
+    "object": [
+      "groupe1"
+    ],
+    "transitive_texture": [
+      "sand_to_grass",
+      "grass_to_rock",
+      "rock_to_send",
+      "ERROR",
+      "stone_to_send",
+      "rock_to_stone",
+      "grass_to_road",
+      "ERROR1",
+      "ground_to_sand",
+      "stone_to_grass",
+      "rock_to_road",
+      "Darkst_TO_LIGHT",
+      "Lightst_to_dark",
+      "stone1_3_to_ROCK1",
+      "r3c_to_GRAS1"
+    ]
+  },
+  "validation_issues": [],
+  "original_bytes_retained": true
+}
+(.venv) PS C:\Users\Mr Kalthen Roy Man\Desktop\CarnivoresMapStudio>
