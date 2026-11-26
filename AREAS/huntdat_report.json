@@ -1,0 +1,5460 @@
+{
+  "audit": "Carnivores 1998 HUNTDAT/AREAS binary structural audit",
+  "version": 1,
+  "root": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS",
+  "areas_directory": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS",
+  "map_expected_bytes": 2228224,
+  "map_layout": [
+    {
+      "name": "HMap",
+      "bytes": 262144
+    },
+    {
+      "name": "TMap1",
+      "bytes": 262144
+    },
+    {
+      "name": "TMap2",
+      "bytes": 262144
+    },
+    {
+      "name": "OMap",
+      "bytes": 262144
+    },
+    {
+      "name": "FMap",
+      "bytes": 262144
+    },
+    {
+      "name": "LMap",
+      "bytes": 262144
+    },
+    {
+      "name": "HMap2",
+      "bytes": 262144
+    },
+    {
+      "name": "HMapO",
+      "bytes": 262144
+    },
+    {
+      "name": "FogsMap",
+      "bytes": 65536
+    },
+    {
+      "name": "AmbMap",
+      "bytes": 65536
+    }
+  ],
+  "status_counts": {
+    "PASS": 7
+  },
+  "all_areas_pass": true,
+  "results": [
+    {
+      "area": "AREA1",
+      "status": "PASS",
+      "project": {
+        "total_textures": 40,
+        "total_objects": 8,
+        "total_fog": 1,
+        "total_random_sound": 8,
+        "total_ambient_sound": 3,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA1.PRJ",
+        "bytes": 1409,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 40,
+          "Object": 8,
+          "Fog": 1,
+          "Random": 8,
+          "Ambient": 3
+        },
+        "record_counts": {
+          "Texture": 40,
+          "Object": 8,
+          "Fog": 1,
+          "Random": 8,
+          "Ambient": 3
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA1.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 109,
+            "min": 1,
+            "max": 128,
+            "most_common": [
+              [
+                4,
+                110700
+              ],
+              [
+                8,
+                11161
+              ],
+              [
+                15,
+                10300
+              ],
+              [
+                14,
+                9863
+              ],
+              [
+                16,
+                9589
+              ],
+              [
+                17,
+                7410
+              ],
+              [
+                13,
+                6960
+              ],
+              [
+                7,
+                6531
+              ],
+              [
+                18,
+                6511
+              ],
+              [
+                19,
+                6131
+              ],
+              [
+                12,
+                5431
+              ],
+              [
+                11,
+                5365
+              ],
+              [
+                20,
+                5313
+              ],
+              [
+                9,
+                5251
+              ],
+              [
+                10,
+                5027
+              ],
+              [
+                21,
+                4763
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 37,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                108796
+              ],
+              [
+                2,
+                90080
+              ],
+              [
+                4,
+                31109
+              ],
+              [
+                11,
+                7631
+              ],
+              [
+                10,
+                4672
+              ],
+              [
+                12,
+                4310
+              ],
+              [
+                16,
+                3253
+              ],
+              [
+                5,
+                2406
+              ],
+              [
+                39,
+                1622
+              ],
+              [
+                28,
+                1238
+              ],
+              [
+                8,
+                1188
+              ],
+              [
+                255,
+                899
+              ],
+              [
+                18,
+                858
+              ],
+              [
+                27,
+                646
+              ],
+              [
+                7,
+                610
+              ],
+              [
+                9,
+                607
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 37,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                108831
+              ],
+              [
+                2,
+                90096
+              ],
+              [
+                4,
+                31102
+              ],
+              [
+                11,
+                7630
+              ],
+              [
+                10,
+                4673
+              ],
+              [
+                12,
+                4311
+              ],
+              [
+                16,
+                3253
+              ],
+              [
+                5,
+                2411
+              ],
+              [
+                39,
+                1612
+              ],
+              [
+                28,
+                1238
+              ],
+              [
+                8,
+                1188
+              ],
+              [
+                255,
+                899
+              ],
+              [
+                18,
+                858
+              ],
+              [
+                27,
+                646
+              ],
+              [
+                9,
+                607
+              ],
+              [
+                7,
+                605
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 10,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                252244
+              ],
+              [
+                0,
+                2032
+              ],
+              [
+                1,
+                2025
+              ],
+              [
+                2,
+                1895
+              ],
+              [
+                4,
+                1868
+              ],
+              [
+                3,
+                1756
+              ],
+              [
+                6,
+                125
+              ],
+              [
+                7,
+                101
+              ],
+              [
+                5,
+                79
+              ],
+              [
+                254,
+                19
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 116,
+            "min": 0,
+            "max": 248,
+            "most_common": [
+              [
+                128,
+                97723
+              ],
+              [
+                4,
+                5025
+              ],
+              [
+                0,
+                5023
+              ],
+              [
+                8,
+                5009
+              ],
+              [
+                12,
+                4962
+              ],
+              [
+                20,
+                4917
+              ],
+              [
+                16,
+                4875
+              ],
+              [
+                22,
+                4840
+              ],
+              [
+                24,
+                4836
+              ],
+              [
+                2,
+                4733
+              ],
+              [
+                18,
+                4693
+              ],
+              [
+                6,
+                4662
+              ],
+              [
+                10,
+                4657
+              ],
+              [
+                14,
+                4648
+              ],
+              [
+                26,
+                4585
+              ],
+              [
+                5,
+                4547
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 36,
+            "min": 0,
+            "max": 35,
+            "most_common": [
+              [
+                11,
+                25863
+              ],
+              [
+                10,
+                25564
+              ],
+              [
+                13,
+                25466
+              ],
+              [
+                12,
+                25325
+              ],
+              [
+                14,
+                24386
+              ],
+              [
+                9,
+                24357
+              ],
+              [
+                15,
+                23615
+              ],
+              [
+                8,
+                22806
+              ],
+              [
+                16,
+                7444
+              ],
+              [
+                7,
+                6609
+              ],
+              [
+                17,
+                6165
+              ],
+              [
+                6,
+                5024
+              ],
+              [
+                18,
+                4688
+              ],
+              [
+                5,
+                3567
+              ],
+              [
+                19,
+                3438
+              ],
+              [
+                20,
+                3174
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 152,
+            "min": 3,
+            "max": 176,
+            "most_common": [
+              [
+                3,
+                83024
+              ],
+              [
+                56,
+                11161
+              ],
+              [
+                63,
+                10300
+              ],
+              [
+                62,
+                9863
+              ],
+              [
+                64,
+                9589
+              ],
+              [
+                65,
+                7410
+              ],
+              [
+                61,
+                6960
+              ],
+              [
+                66,
+                6511
+              ],
+              [
+                67,
+                6131
+              ],
+              [
+                55,
+                5680
+              ],
+              [
+                60,
+                5431
+              ],
+              [
+                59,
+                5365
+              ],
+              [
+                68,
+                5313
+              ],
+              [
+                57,
+                5251
+              ],
+              [
+                58,
+                5027
+              ],
+              [
+                69,
+                4763
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                65536
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 3,
+            "min": 0,
+            "max": 2,
+            "most_common": [
+              [
+                0,
+                37235
+              ],
+              [
+                1,
+                27817
+              ],
+              [
+                2,
+                484
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 110210,
+          "reverse_fmReverse_0x40": 49906,
+          "no_way_fmNOWAY_0x20": 279
+        },
+        "OMap_landing_markers_254": 19,
+        "OMap_empty_cells_255": 252244
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA1.RSC",
+        "bytes": 4520404,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 40,
+          "objects": 8,
+          "fog": 1,
+          "random_sound": 8,
+          "ambient_sound": 3
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          80,
+          87,
+          90,
+          72,
+          72,
+          80
+        ],
+        "model_totals": {
+          "faces": 797,
+          "vertices": 1231,
+          "model_objects": 94,
+          "model_texture_bytes": 916992,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 49,
+            "faces": 28,
+            "objects": 6,
+            "texture_bytes": 106496,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 6,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 7,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          173568,
+          69376,
+          163328,
+          148480,
+          109568,
+          129792,
+          109680,
+          203776
+        ],
+        "ambient_sound_lengths": [
+          248832,
+          347664,
+          364416
+        ],
+        "ambient_rsfx_counts": [
+          8,
+          3,
+          3
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA1.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "AREA2",
+      "status": "PASS",
+      "project": {
+        "total_textures": 68,
+        "total_objects": 22,
+        "total_fog": 2,
+        "total_random_sound": 6,
+        "total_ambient_sound": 4,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.PRJ",
+        "bytes": 2091,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 68,
+          "Object": 22,
+          "Fog": 2,
+          "Random": 6,
+          "Ambient": 4
+        },
+        "record_counts": {
+          "Texture": 68,
+          "Object": 22,
+          "Fog": 2,
+          "Random": 6,
+          "Ambient": 4
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 190,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                164173
+              ],
+              [
+                24,
+                9503
+              ],
+              [
+                25,
+                3738
+              ],
+              [
+                26,
+                3703
+              ],
+              [
+                21,
+                3678
+              ],
+              [
+                29,
+                3508
+              ],
+              [
+                28,
+                3396
+              ],
+              [
+                27,
+                3282
+              ],
+              [
+                23,
+                3112
+              ],
+              [
+                30,
+                3096
+              ],
+              [
+                22,
+                3083
+              ],
+              [
+                31,
+                2760
+              ],
+              [
+                20,
+                2718
+              ],
+              [
+                12,
+                2629
+              ],
+              [
+                32,
+                2544
+              ],
+              [
+                19,
+                2352
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 57,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                164357
+              ],
+              [
+                4,
+                40250
+              ],
+              [
+                5,
+                9182
+              ],
+              [
+                11,
+                8603
+              ],
+              [
+                25,
+                8369
+              ],
+              [
+                64,
+                5209
+              ],
+              [
+                60,
+                4013
+              ],
+              [
+                27,
+                2878
+              ],
+              [
+                26,
+                1805
+              ],
+              [
+                66,
+                1716
+              ],
+              [
+                28,
+                1673
+              ],
+              [
+                9,
+                1669
+              ],
+              [
+                18,
+                1042
+              ],
+              [
+                255,
+                1023
+              ],
+              [
+                65,
+                993
+              ],
+              [
+                10,
+                919
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 58,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                164301
+              ],
+              [
+                4,
+                40269
+              ],
+              [
+                5,
+                9188
+              ],
+              [
+                11,
+                8598
+              ],
+              [
+                25,
+                8364
+              ],
+              [
+                64,
+                5209
+              ],
+              [
+                60,
+                4074
+              ],
+              [
+                27,
+                2878
+              ],
+              [
+                26,
+                1804
+              ],
+              [
+                66,
+                1716
+              ],
+              [
+                28,
+                1678
+              ],
+              [
+                9,
+                1670
+              ],
+              [
+                18,
+                1043
+              ],
+              [
+                255,
+                1023
+              ],
+              [
+                65,
+                993
+              ],
+              [
+                10,
+                917
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 19,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                255513
+              ],
+              [
+                9,
+                1724
+              ],
+              [
+                8,
+                1032
+              ],
+              [
+                3,
+                1012
+              ],
+              [
+                14,
+                906
+              ],
+              [
+                0,
+                595
+              ],
+              [
+                4,
+                411
+              ],
+              [
+                13,
+                393
+              ],
+              [
+                11,
+                136
+              ],
+              [
+                12,
+                100
+              ],
+              [
+                10,
+                93
+              ],
+              [
+                21,
+                56
+              ],
+              [
+                17,
+                46
+              ],
+              [
+                1,
+                46
+              ],
+              [
+                18,
+                36
+              ],
+              [
+                16,
+                29
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 145,
+            "min": 0,
+            "max": 248,
+            "most_common": [
+              [
+                128,
+                24527
+              ],
+              [
+                140,
+                23210
+              ],
+              [
+                148,
+                23143
+              ],
+              [
+                132,
+                23082
+              ],
+              [
+                152,
+                23081
+              ],
+              [
+                144,
+                23058
+              ],
+              [
+                136,
+                22941
+              ],
+              [
+                0,
+                3290
+              ],
+              [
+                16,
+                3204
+              ],
+              [
+                20,
+                3190
+              ],
+              [
+                24,
+                3167
+              ],
+              [
+                4,
+                3124
+              ],
+              [
+                8,
+                3100
+              ],
+              [
+                12,
+                3065
+              ],
+              [
+                26,
+                2883
+              ],
+              [
+                14,
+                2841
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 36,
+            "min": 0,
+            "max": 35,
+            "most_common": [
+              [
+                11,
+                27277
+              ],
+              [
+                13,
+                26799
+              ],
+              [
+                10,
+                26774
+              ],
+              [
+                12,
+                26649
+              ],
+              [
+                14,
+                26479
+              ],
+              [
+                9,
+                26240
+              ],
+              [
+                8,
+                25577
+              ],
+              [
+                15,
+                25550
+              ],
+              [
+                16,
+                4011
+              ],
+              [
+                7,
+                3875
+              ],
+              [
+                17,
+                3310
+              ],
+              [
+                6,
+                2979
+              ],
+              [
+                18,
+                2573
+              ],
+              [
+                28,
+                2342
+              ],
+              [
+                29,
+                2313
+              ],
+              [
+                30,
+                2285
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 232,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                140333
+              ],
+              [
+                72,
+                8240
+              ],
+              [
+                69,
+                4189
+              ],
+              [
+                73,
+                3726
+              ],
+              [
+                74,
+                3522
+              ],
+              [
+                77,
+                3508
+              ],
+              [
+                76,
+                3396
+              ],
+              [
+                75,
+                3282
+              ],
+              [
+                71,
+                3165
+              ],
+              [
+                70,
+                3102
+              ],
+              [
+                78,
+                3096
+              ],
+              [
+                68,
+                2906
+              ],
+              [
+                79,
+                2760
+              ],
+              [
+                60,
+                2629
+              ],
+              [
+                80,
+                2544
+              ],
+              [
+                67,
+                2397
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 33,
+            "min": 0,
+            "max": 82,
+            "most_common": [
+              [
+                0,
+                262044
+              ],
+              [
+                27,
+                45
+              ],
+              [
+                82,
+                16
+              ],
+              [
+                14,
+                2
+              ],
+              [
+                16,
+                2
+              ],
+              [
+                18,
+                2
+              ],
+              [
+                20,
+                2
+              ],
+              [
+                22,
+                2
+              ],
+              [
+                24,
+                2
+              ],
+              [
+                26,
+                2
+              ],
+              [
+                28,
+                2
+              ],
+              [
+                30,
+                2
+              ],
+              [
+                19,
+                1
+              ],
+              [
+                17,
+                1
+              ],
+              [
+                15,
+                1
+              ],
+              [
+                13,
+                1
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                65536
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 4,
+            "min": 0,
+            "max": 3,
+            "most_common": [
+              [
+                1,
+                41654
+              ],
+              [
+                0,
+                18600
+              ],
+              [
+                2,
+                3927
+              ],
+              [
+                3,
+                1355
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 164171,
+          "reverse_fmReverse_0x40": 32472,
+          "no_way_fmNOWAY_0x20": 5649
+        },
+        "OMap_landing_markers_254": 8,
+        "OMap_empty_cells_255": 255513
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.RSC",
+        "bytes": 6787676,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 68,
+          "objects": 22,
+          "fog": 2,
+          "random_sound": 6,
+          "ambient_sound": 4
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          0,
+          70,
+          90,
+          96,
+          136,
+          200
+        ],
+        "model_totals": {
+          "faces": 1537,
+          "vertices": 1986,
+          "model_objects": 240,
+          "model_texture_bytes": 2387968,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 92,
+            "objects": 17,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 52,
+            "faces": 54,
+            "objects": 5,
+            "texture_bytes": 130048,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 26,
+            "faces": 44,
+            "objects": 1,
+            "texture_bytes": 65536,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 82,
+            "faces": 80,
+            "objects": 14,
+            "texture_bytes": 110080,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 168,
+            "faces": 101,
+            "objects": 35,
+            "texture_bytes": 71680,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 78,
+            "faces": 76,
+            "objects": 14,
+            "texture_bytes": 86016,
+            "animation": null
+          },
+          {
+            "index": 6,
+            "flags_hex": "0x00000014",
+            "animated": false,
+            "vertices": 44,
+            "faces": 52,
+            "objects": 2,
+            "texture_bytes": 131072,
+            "animation": null
+          },
+          {
+            "index": 7,
+            "flags_hex": "0x00000014",
+            "animated": false,
+            "vertices": 17,
+            "faces": 22,
+            "objects": 1,
+            "texture_bytes": 131072,
+            "animation": null
+          },
+          {
+            "index": 8,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 54,
+            "faces": 36,
+            "objects": 10,
+            "texture_bytes": 16384,
+            "animation": null
+          },
+          {
+            "index": 9,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 10,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 11,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 12,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 55,
+            "faces": 42,
+            "objects": 6,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 13,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 14,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 57,
+            "faces": 42,
+            "objects": 9,
+            "texture_bytes": 126464,
+            "animation": null
+          },
+          {
+            "index": 15,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 48,
+            "faces": 54,
+            "objects": 3,
+            "texture_bytes": 131072,
+            "animation": null
+          },
+          {
+            "index": 16,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 17,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 78,
+            "objects": 18,
+            "texture_bytes": 128512,
+            "animation": null
+          },
+          {
+            "index": 18,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 19,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 55,
+            "faces": 42,
+            "objects": 6,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 20,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 21,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          105984,
+          163328,
+          109568,
+          129792,
+          109680,
+          203776
+        ],
+        "ambient_sound_lengths": [
+          248832,
+          347664,
+          344064,
+          116736
+        ],
+        "ambient_rsfx_counts": [
+          6,
+          3,
+          3,
+          3
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA2.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "AREA3",
+      "status": "PASS",
+      "project": {
+        "total_textures": 86,
+        "total_objects": 14,
+        "total_fog": 5,
+        "total_random_sound": 9,
+        "total_ambient_sound": 5,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA3.PRJ",
+        "bytes": 2837,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 86,
+          "Object": 14,
+          "Fog": 5,
+          "Random": 9,
+          "Ambient": 5
+        },
+        "record_counts": {
+          "Texture": 86,
+          "Object": 14,
+          "Fog": 5,
+          "Random": 9,
+          "Ambient": 5
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA3.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 169,
+            "min": 43,
+            "max": 212,
+            "most_common": [
+              [
+                64,
+                145325
+              ],
+              [
+                70,
+                16703
+              ],
+              [
+                71,
+                6902
+              ],
+              [
+                84,
+                4826
+              ],
+              [
+                74,
+                4777
+              ],
+              [
+                73,
+                4609
+              ],
+              [
+                69,
+                4567
+              ],
+              [
+                77,
+                4373
+              ],
+              [
+                72,
+                4338
+              ],
+              [
+                76,
+                4228
+              ],
+              [
+                79,
+                3817
+              ],
+              [
+                75,
+                3740
+              ],
+              [
+                68,
+                3424
+              ],
+              [
+                82,
+                3261
+              ],
+              [
+                60,
+                3243
+              ],
+              [
+                78,
+                3050
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 77,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                144171
+              ],
+              [
+                9,
+                54931
+              ],
+              [
+                10,
+                15361
+              ],
+              [
+                4,
+                14313
+              ],
+              [
+                2,
+                9441
+              ],
+              [
+                31,
+                3267
+              ],
+              [
+                13,
+                3145
+              ],
+              [
+                8,
+                2272
+              ],
+              [
+                12,
+                1955
+              ],
+              [
+                30,
+                1949
+              ],
+              [
+                32,
+                1738
+              ],
+              [
+                14,
+                1527
+              ],
+              [
+                72,
+                1167
+              ],
+              [
+                255,
+                1023
+              ],
+              [
+                68,
+                563
+              ],
+              [
+                53,
+                411
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 77,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                144152
+              ],
+              [
+                9,
+                54926
+              ],
+              [
+                10,
+                15362
+              ],
+              [
+                4,
+                14315
+              ],
+              [
+                2,
+                9456
+              ],
+              [
+                31,
+                3267
+              ],
+              [
+                13,
+                3145
+              ],
+              [
+                8,
+                2272
+              ],
+              [
+                12,
+                1955
+              ],
+              [
+                30,
+                1950
+              ],
+              [
+                32,
+                1738
+              ],
+              [
+                14,
+                1527
+              ],
+              [
+                72,
+                1167
+              ],
+              [
+                255,
+                1023
+              ],
+              [
+                68,
+                563
+              ],
+              [
+                53,
+                411
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 16,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                253160
+              ],
+              [
+                8,
+                690
+              ],
+              [
+                12,
+                686
+              ],
+              [
+                7,
+                666
+              ],
+              [
+                9,
+                659
+              ],
+              [
+                5,
+                659
+              ],
+              [
+                13,
+                654
+              ],
+              [
+                4,
+                646
+              ],
+              [
+                3,
+                642
+              ],
+              [
+                11,
+                636
+              ],
+              [
+                10,
+                622
+              ],
+              [
+                2,
+                621
+              ],
+              [
+                6,
+                612
+              ],
+              [
+                0,
+                610
+              ],
+              [
+                1,
+                563
+              ],
+              [
+                254,
+                18
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 142,
+            "min": 0,
+            "max": 248,
+            "most_common": [
+              [
+                128,
+                21439
+              ],
+              [
+                140,
+                20630
+              ],
+              [
+                144,
+                20575
+              ],
+              [
+                152,
+                20404
+              ],
+              [
+                136,
+                20327
+              ],
+              [
+                132,
+                20245
+              ],
+              [
+                148,
+                20091
+              ],
+              [
+                4,
+                3703
+              ],
+              [
+                12,
+                3672
+              ],
+              [
+                8,
+                3637
+              ],
+              [
+                0,
+                3613
+              ],
+              [
+                16,
+                3598
+              ],
+              [
+                20,
+                3556
+              ],
+              [
+                24,
+                3498
+              ],
+              [
+                10,
+                3419
+              ],
+              [
+                14,
+                3373
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 36,
+            "min": 0,
+            "max": 35,
+            "most_common": [
+              [
+                11,
+                26401
+              ],
+              [
+                10,
+                26008
+              ],
+              [
+                12,
+                25789
+              ],
+              [
+                9,
+                25461
+              ],
+              [
+                13,
+                25405
+              ],
+              [
+                14,
+                25086
+              ],
+              [
+                8,
+                24657
+              ],
+              [
+                15,
+                24388
+              ],
+              [
+                7,
+                4880
+              ],
+              [
+                16,
+                4769
+              ],
+              [
+                17,
+                3896
+              ],
+              [
+                6,
+                3611
+              ],
+              [
+                18,
+                3015
+              ],
+              [
+                5,
+                2742
+              ],
+              [
+                28,
+                2483
+              ],
+              [
+                19,
+                2424
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 191,
+            "min": 63,
+            "max": 255,
+            "most_common": [
+              [
+                63,
+                120209
+              ],
+              [
+                118,
+                16703
+              ],
+              [
+                119,
+                6902
+              ],
+              [
+                132,
+                4826
+              ],
+              [
+                122,
+                4777
+              ],
+              [
+                121,
+                4609
+              ],
+              [
+                117,
+                4567
+              ],
+              [
+                125,
+                4373
+              ],
+              [
+                120,
+                4338
+              ],
+              [
+                124,
+                4228
+              ],
+              [
+                127,
+                3817
+              ],
+              [
+                123,
+                3740
+              ],
+              [
+                116,
+                3424
+              ],
+              [
+                130,
+                3261
+              ],
+              [
+                126,
+                3050
+              ],
+              [
+                129,
+                2845
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 5,
+            "min": 0,
+            "max": 5,
+            "most_common": [
+              [
+                0,
+                64783
+              ],
+              [
+                3,
+                548
+              ],
+              [
+                4,
+                121
+              ],
+              [
+                2,
+                75
+              ],
+              [
+                5,
+                9
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 5,
+            "min": 0,
+            "max": 4,
+            "most_common": [
+              [
+                2,
+                36125
+              ],
+              [
+                0,
+                25506
+              ],
+              [
+                4,
+                3251
+              ],
+              [
+                1,
+                542
+              ],
+              [
+                3,
+                112
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 144306,
+          "reverse_fmReverse_0x40": 40887,
+          "no_way_fmNOWAY_0x20": 7032
+        },
+        "OMap_landing_markers_254": 18,
+        "OMap_empty_cells_255": 253160
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA3.RSC",
+        "bytes": 7228320,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 86,
+          "objects": 14,
+          "fog": 5,
+          "random_sound": 9,
+          "ambient_sound": 5
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          80,
+          88,
+          88,
+          56,
+          80,
+          112
+        ],
+        "model_totals": {
+          "faces": 1091,
+          "vertices": 1344,
+          "model_objects": 211,
+          "model_texture_bytes": 1448960,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 92,
+            "objects": 17,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 168,
+            "faces": 101,
+            "objects": 35,
+            "texture_bytes": 71680,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 57,
+            "faces": 42,
+            "objects": 9,
+            "texture_bytes": 126464,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 6,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 55,
+            "faces": 42,
+            "objects": 6,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 7,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 52,
+            "faces": 54,
+            "objects": 5,
+            "texture_bytes": 130048,
+            "animation": null
+          },
+          {
+            "index": 8,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 82,
+            "faces": 80,
+            "objects": 14,
+            "texture_bytes": 110080,
+            "animation": null
+          },
+          {
+            "index": 9,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 115,
+            "faces": 102,
+            "objects": 19,
+            "texture_bytes": 130560,
+            "animation": null
+          },
+          {
+            "index": 10,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 78,
+            "objects": 18,
+            "texture_bytes": 128512,
+            "animation": null
+          },
+          {
+            "index": 11,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 54,
+            "faces": 36,
+            "objects": 10,
+            "texture_bytes": 16384,
+            "animation": null
+          },
+          {
+            "index": 12,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 78,
+            "faces": 76,
+            "objects": 14,
+            "texture_bytes": 86016,
+            "animation": null
+          },
+          {
+            "index": 13,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 78,
+            "faces": 76,
+            "objects": 14,
+            "texture_bytes": 86016,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          39552,
+          31616,
+          204798,
+          401408,
+          109568,
+          198656,
+          129792,
+          109680,
+          203776
+        ],
+        "ambient_sound_lengths": [
+          261120,
+          364544,
+          347664,
+          87552,
+          220034
+        ],
+        "ambient_rsfx_counts": [
+          6,
+          3,
+          3,
+          2,
+          4
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA3.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "AREA4",
+      "status": "PASS",
+      "project": {
+        "total_textures": 87,
+        "total_objects": 11,
+        "total_fog": 4,
+        "total_random_sound": 12,
+        "total_ambient_sound": 6,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA4.PRJ",
+        "bytes": 2810,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 87,
+          "Object": 11,
+          "Fog": 4,
+          "Random": 12,
+          "Ambient": 6
+        },
+        "record_counts": {
+          "Texture": 87,
+          "Object": 11,
+          "Fog": 4,
+          "Random": 12,
+          "Ambient": 6
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA4.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 256,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                48,
+                94342
+              ],
+              [
+                52,
+                17969
+              ],
+              [
+                51,
+                9984
+              ],
+              [
+                49,
+                7800
+              ],
+              [
+                53,
+                7035
+              ],
+              [
+                54,
+                6409
+              ],
+              [
+                50,
+                6374
+              ],
+              [
+                57,
+                5528
+              ],
+              [
+                56,
+                5416
+              ],
+              [
+                55,
+                5233
+              ],
+              [
+                60,
+                4864
+              ],
+              [
+                47,
+                4503
+              ],
+              [
+                59,
+                4321
+              ],
+              [
+                62,
+                3911
+              ],
+              [
+                58,
+                3813
+              ],
+              [
+                63,
+                3458
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 83,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                84924
+              ],
+              [
+                10,
+                68864
+              ],
+              [
+                28,
+                42576
+              ],
+              [
+                4,
+                11721
+              ],
+              [
+                2,
+                10481
+              ],
+              [
+                5,
+                8090
+              ],
+              [
+                27,
+                4653
+              ],
+              [
+                15,
+                3927
+              ],
+              [
+                14,
+                2714
+              ],
+              [
+                16,
+                2339
+              ],
+              [
+                54,
+                2268
+              ],
+              [
+                48,
+                1669
+              ],
+              [
+                53,
+                1471
+              ],
+              [
+                55,
+                1360
+              ],
+              [
+                20,
+                1152
+              ],
+              [
+                9,
+                1137
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 83,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                84911
+              ],
+              [
+                10,
+                68858
+              ],
+              [
+                28,
+                42503
+              ],
+              [
+                4,
+                11801
+              ],
+              [
+                2,
+                10503
+              ],
+              [
+                5,
+                8090
+              ],
+              [
+                27,
+                4789
+              ],
+              [
+                15,
+                3927
+              ],
+              [
+                14,
+                2714
+              ],
+              [
+                16,
+                2339
+              ],
+              [
+                54,
+                2268
+              ],
+              [
+                48,
+                1669
+              ],
+              [
+                53,
+                1471
+              ],
+              [
+                55,
+                1360
+              ],
+              [
+                20,
+                1149
+              ],
+              [
+                9,
+                1141
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 13,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                253789
+              ],
+              [
+                2,
+                1916
+              ],
+              [
+                3,
+                1901
+              ],
+              [
+                0,
+                1886
+              ],
+              [
+                1,
+                1880
+              ],
+              [
+                5,
+                206
+              ],
+              [
+                6,
+                195
+              ],
+              [
+                4,
+                164
+              ],
+              [
+                8,
+                139
+              ],
+              [
+                10,
+                22
+              ],
+              [
+                254,
+                16
+              ],
+              [
+                7,
+                15
+              ],
+              [
+                9,
+                15
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 167,
+            "min": 0,
+            "max": 249,
+            "most_common": [
+              [
+                128,
+                84410
+              ],
+              [
+                0,
+                8058
+              ],
+              [
+                2,
+                7231
+              ],
+              [
+                1,
+                6595
+              ],
+              [
+                32,
+                4773
+              ],
+              [
+                16,
+                4290
+              ],
+              [
+                20,
+                4279
+              ],
+              [
+                12,
+                4238
+              ],
+              [
+                21,
+                4222
+              ],
+              [
+                8,
+                4194
+              ],
+              [
+                6,
+                4189
+              ],
+              [
+                22,
+                4187
+              ],
+              [
+                25,
+                4179
+              ],
+              [
+                24,
+                4174
+              ],
+              [
+                26,
+                4150
+              ],
+              [
+                9,
+                4133
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 37,
+            "min": 0,
+            "max": 36,
+            "most_common": [
+              [
+                11,
+                23712
+              ],
+              [
+                10,
+                23176
+              ],
+              [
+                13,
+                23103
+              ],
+              [
+                12,
+                23068
+              ],
+              [
+                14,
+                22349
+              ],
+              [
+                9,
+                21877
+              ],
+              [
+                8,
+                20908
+              ],
+              [
+                15,
+                20782
+              ],
+              [
+                16,
+                7322
+              ],
+              [
+                7,
+                6959
+              ],
+              [
+                17,
+                6089
+              ],
+              [
+                6,
+                5144
+              ],
+              [
+                18,
+                4461
+              ],
+              [
+                5,
+                3727
+              ],
+              [
+                28,
+                3619
+              ],
+              [
+                29,
+                3587
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 214,
+            "min": 41,
+            "max": 255,
+            "most_common": [
+              [
+                47,
+                61079
+              ],
+              [
+                100,
+                17969
+              ],
+              [
+                96,
+                10201
+              ],
+              [
+                99,
+                9984
+              ],
+              [
+                97,
+                7800
+              ],
+              [
+                101,
+                7035
+              ],
+              [
+                102,
+                6409
+              ],
+              [
+                98,
+                6374
+              ],
+              [
+                105,
+                5528
+              ],
+              [
+                104,
+                5416
+              ],
+              [
+                103,
+                5233
+              ],
+              [
+                108,
+                4864
+              ],
+              [
+                95,
+                4503
+              ],
+              [
+                93,
+                4352
+              ],
+              [
+                107,
+                4321
+              ],
+              [
+                110,
+                3911
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 4,
+            "min": 0,
+            "max": 4,
+            "most_common": [
+              [
+                0,
+                61967
+              ],
+              [
+                2,
+                2764
+              ],
+              [
+                3,
+                430
+              ],
+              [
+                4,
+                375
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 6,
+            "min": 0,
+            "max": 5,
+            "most_common": [
+              [
+                0,
+                41166
+              ],
+              [
+                1,
+                21353
+              ],
+              [
+                4,
+                1843
+              ],
+              [
+                2,
+                559
+              ],
+              [
+                3,
+                352
+              ],
+              [
+                5,
+                263
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 86009,
+          "reverse_fmReverse_0x40": 60047,
+          "no_way_fmNOWAY_0x20": 21688
+        },
+        "OMap_landing_markers_254": 16,
+        "OMap_empty_cells_255": 253789
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA4.RSC",
+        "bytes": 7138594,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 87,
+          "objects": 11,
+          "fog": 4,
+          "random_sound": 12,
+          "ambient_sound": 6
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          56,
+          88,
+          112,
+          56,
+          88,
+          104
+        ],
+        "model_totals": {
+          "faces": 979,
+          "vertices": 1442,
+          "model_objects": 130,
+          "model_texture_bytes": 1211904,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 6,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 7,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 54,
+            "faces": 36,
+            "objects": 10,
+            "texture_bytes": 16384,
+            "animation": null
+          },
+          {
+            "index": 8,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 57,
+            "faces": 42,
+            "objects": 9,
+            "texture_bytes": 126464,
+            "animation": null
+          },
+          {
+            "index": 9,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 78,
+            "objects": 18,
+            "texture_bytes": 128512,
+            "animation": null
+          },
+          {
+            "index": 10,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 52,
+            "faces": 54,
+            "objects": 5,
+            "texture_bytes": 130048,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          34688,
+          47232,
+          69376,
+          109568,
+          96770,
+          39552,
+          31616,
+          191744,
+          179198,
+          129792,
+          109680,
+          203776
+        ],
+        "ambient_sound_lengths": [
+          331774,
+          347664,
+          364544,
+          342016,
+          88064,
+          116736
+        ],
+        "ambient_rsfx_counts": [
+          8,
+          3,
+          3,
+          2,
+          4,
+          4
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA4.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "AREA5",
+      "status": "PASS",
+      "project": {
+        "total_textures": 95,
+        "total_objects": 18,
+        "total_fog": 4,
+        "total_random_sound": 11,
+        "total_ambient_sound": 4,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA5.PRJ",
+        "bytes": 2965,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 95,
+          "Object": 18,
+          "Fog": 4,
+          "Random": 11,
+          "Ambient": 4
+        },
+        "record_counts": {
+          "Texture": 95,
+          "Object": 18,
+          "Fog": 4,
+          "Random": 11,
+          "Ambient": 4
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA5.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 182,
+            "min": 0,
+            "max": 188,
+            "most_common": [
+              [
+                0,
+                164311
+              ],
+              [
+                4,
+                10101
+              ],
+              [
+                3,
+                3302
+              ],
+              [
+                65,
+                3181
+              ],
+              [
+                18,
+                2600
+              ],
+              [
+                5,
+                2216
+              ],
+              [
+                20,
+                2055
+              ],
+              [
+                7,
+                2018
+              ],
+              [
+                19,
+                2003
+              ],
+              [
+                1,
+                1977
+              ],
+              [
+                6,
+                1930
+              ],
+              [
+                2,
+                1900
+              ],
+              [
+                17,
+                1885
+              ],
+              [
+                9,
+                1823
+              ],
+              [
+                21,
+                1774
+              ],
+              [
+                8,
+                1731
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 89,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                160385
+              ],
+              [
+                59,
+                21573
+              ],
+              [
+                2,
+                20018
+              ],
+              [
+                4,
+                13552
+              ],
+              [
+                37,
+                12132
+              ],
+              [
+                60,
+                2856
+              ],
+              [
+                5,
+                2575
+              ],
+              [
+                3,
+                2474
+              ],
+              [
+                63,
+                1945
+              ],
+              [
+                30,
+                1551
+              ],
+              [
+                62,
+                1339
+              ],
+              [
+                39,
+                1263
+              ],
+              [
+                64,
+                1197
+              ],
+              [
+                22,
+                1174
+              ],
+              [
+                255,
+                982
+              ],
+              [
+                78,
+                824
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 90,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                160355
+              ],
+              [
+                59,
+                21584
+              ],
+              [
+                2,
+                20014
+              ],
+              [
+                4,
+                13533
+              ],
+              [
+                37,
+                12132
+              ],
+              [
+                60,
+                2856
+              ],
+              [
+                5,
+                2571
+              ],
+              [
+                3,
+                2478
+              ],
+              [
+                63,
+                1945
+              ],
+              [
+                30,
+                1560
+              ],
+              [
+                62,
+                1339
+              ],
+              [
+                39,
+                1262
+              ],
+              [
+                64,
+                1197
+              ],
+              [
+                22,
+                1173
+              ],
+              [
+                255,
+                982
+              ],
+              [
+                78,
+                820
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 20,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                258814
+              ],
+              [
+                16,
+                326
+              ],
+              [
+                14,
+                314
+              ],
+              [
+                13,
+                300
+              ],
+              [
+                17,
+                298
+              ],
+              [
+                9,
+                292
+              ],
+              [
+                6,
+                277
+              ],
+              [
+                1,
+                263
+              ],
+              [
+                0,
+                199
+              ],
+              [
+                10,
+                162
+              ],
+              [
+                15,
+                144
+              ],
+              [
+                3,
+                134
+              ],
+              [
+                5,
+                115
+              ],
+              [
+                4,
+                111
+              ],
+              [
+                12,
+                96
+              ],
+              [
+                2,
+                95
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 140,
+            "min": 0,
+            "max": 224,
+            "most_common": [
+              [
+                128,
+                157297
+              ],
+              [
+                0,
+                7759
+              ],
+              [
+                2,
+                5907
+              ],
+              [
+                1,
+                5309
+              ],
+              [
+                64,
+                3458
+              ],
+              [
+                65,
+                3191
+              ],
+              [
+                66,
+                2578
+              ],
+              [
+                16,
+                2397
+              ],
+              [
+                20,
+                2334
+              ],
+              [
+                24,
+                2329
+              ],
+              [
+                8,
+                2327
+              ],
+              [
+                12,
+                2317
+              ],
+              [
+                4,
+                2275
+              ],
+              [
+                160,
+                2153
+              ],
+              [
+                10,
+                2028
+              ],
+              [
+                6,
+                2018
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 37,
+            "min": 0,
+            "max": 36,
+            "most_common": [
+              [
+                12,
+                27098
+              ],
+              [
+                10,
+                27080
+              ],
+              [
+                11,
+                27075
+              ],
+              [
+                13,
+                26993
+              ],
+              [
+                14,
+                26335
+              ],
+              [
+                9,
+                25629
+              ],
+              [
+                15,
+                25599
+              ],
+              [
+                8,
+                25354
+              ],
+              [
+                16,
+                4137
+              ],
+              [
+                7,
+                3959
+              ],
+              [
+                17,
+                3409
+              ],
+              [
+                6,
+                2932
+              ],
+              [
+                18,
+                2644
+              ],
+              [
+                28,
+                2312
+              ],
+              [
+                29,
+                2308
+              ],
+              [
+                30,
+                2303
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 220,
+            "min": 0,
+            "max": 236,
+            "most_common": [
+              [
+                0,
+                137317
+              ],
+              [
+                52,
+                10101
+              ],
+              [
+                48,
+                3969
+              ],
+              [
+                51,
+                3302
+              ],
+              [
+                113,
+                3181
+              ],
+              [
+                66,
+                2600
+              ],
+              [
+                53,
+                2216
+              ],
+              [
+                68,
+                2055
+              ],
+              [
+                55,
+                2018
+              ],
+              [
+                67,
+                2003
+              ],
+              [
+                49,
+                1977
+              ],
+              [
+                54,
+                1930
+              ],
+              [
+                50,
+                1900
+              ],
+              [
+                45,
+                1890
+              ],
+              [
+                65,
+                1885
+              ],
+              [
+                41,
+                1857
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 4,
+            "min": 0,
+            "max": 4,
+            "most_common": [
+              [
+                0,
+                65048
+              ],
+              [
+                3,
+                301
+              ],
+              [
+                2,
+                149
+              ],
+              [
+                4,
+                38
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 3,
+            "min": 0,
+            "max": 3,
+            "most_common": [
+              [
+                2,
+                40674
+              ],
+              [
+                0,
+                17915
+              ],
+              [
+                3,
+                6947
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 160374,
+          "reverse_fmReverse_0x40": 35519,
+          "no_way_fmNOWAY_0x20": 13978
+        },
+        "OMap_landing_markers_254": 24,
+        "OMap_empty_cells_255": 258814
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA5.RSC",
+        "bytes": 8184760,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 95,
+          "objects": 18,
+          "fog": 4,
+          "random_sound": 11,
+          "ambient_sound": 4
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          80,
+          87,
+          90,
+          72,
+          80,
+          80
+        ],
+        "model_totals": {
+          "faces": 1490,
+          "vertices": 2118,
+          "model_objects": 250,
+          "model_texture_bytes": 1990656,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 92,
+            "objects": 17,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 168,
+            "faces": 101,
+            "objects": 35,
+            "texture_bytes": 71680,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 82,
+            "faces": 80,
+            "objects": 14,
+            "texture_bytes": 110080,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 54,
+            "faces": 36,
+            "objects": 10,
+            "texture_bytes": 16384,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 6,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 49,
+            "faces": 28,
+            "objects": 6,
+            "texture_bytes": 106496,
+            "animation": null
+          },
+          {
+            "index": 7,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 8,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 55,
+            "faces": 42,
+            "objects": 6,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 9,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 10,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 57,
+            "faces": 42,
+            "objects": 9,
+            "texture_bytes": 126464,
+            "animation": null
+          },
+          {
+            "index": 11,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 115,
+            "faces": 102,
+            "objects": 19,
+            "texture_bytes": 130560,
+            "animation": null
+          },
+          {
+            "index": 12,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 97,
+            "faces": 78,
+            "objects": 18,
+            "texture_bytes": 128512,
+            "animation": null
+          },
+          {
+            "index": 13,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 14,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 15,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 165,
+            "faces": 126,
+            "objects": 18,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 16,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 17,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          198656,
+          34688,
+          47232,
+          173568,
+          163328,
+          148480,
+          109568,
+          165888,
+          129792,
+          109680,
+          203776
+        ],
+        "ambient_sound_lengths": [
+          248832,
+          364544,
+          347664,
+          344064
+        ],
+        "ambient_rsfx_counts": [
+          10,
+          3,
+          3,
+          4
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA5.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "AREA6",
+      "status": "PASS",
+      "project": {
+        "total_textures": 43,
+        "total_objects": 6,
+        "total_fog": 2,
+        "total_random_sound": 6,
+        "total_ambient_sound": 4,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA6.PRJ",
+        "bytes": 1508,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 43,
+          "Object": 6,
+          "Fog": 2,
+          "Random": 6,
+          "Ambient": 4
+        },
+        "record_counts": {
+          "Texture": 43,
+          "Object": 6,
+          "Fog": 2,
+          "Random": 6,
+          "Ambient": 4
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA6.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 256,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                81166
+              ],
+              [
+                100,
+                6949
+              ],
+              [
+                80,
+                2420
+              ],
+              [
+                101,
+                1956
+              ],
+              [
+                99,
+                1933
+              ],
+              [
+                64,
+                1913
+              ],
+              [
+                42,
+                1815
+              ],
+              [
+                98,
+                1733
+              ],
+              [
+                71,
+                1715
+              ],
+              [
+                19,
+                1703
+              ],
+              [
+                41,
+                1674
+              ],
+              [
+                75,
+                1674
+              ],
+              [
+                43,
+                1666
+              ],
+              [
+                97,
+                1650
+              ],
+              [
+                40,
+                1641
+              ],
+              [
+                51,
+                1625
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 42,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                79949
+              ],
+              [
+                4,
+                52432
+              ],
+              [
+                6,
+                23676
+              ],
+              [
+                2,
+                23620
+              ],
+              [
+                7,
+                14282
+              ],
+              [
+                5,
+                14023
+              ],
+              [
+                3,
+                10831
+              ],
+              [
+                1,
+                7443
+              ],
+              [
+                10,
+                3853
+              ],
+              [
+                19,
+                3521
+              ],
+              [
+                13,
+                3252
+              ],
+              [
+                41,
+                2664
+              ],
+              [
+                9,
+                2559
+              ],
+              [
+                18,
+                2112
+              ],
+              [
+                14,
+                2021
+              ],
+              [
+                12,
+                1943
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 40,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                79933
+              ],
+              [
+                4,
+                52453
+              ],
+              [
+                2,
+                23647
+              ],
+              [
+                6,
+                23554
+              ],
+              [
+                7,
+                14282
+              ],
+              [
+                5,
+                14023
+              ],
+              [
+                3,
+                10831
+              ],
+              [
+                1,
+                7464
+              ],
+              [
+                10,
+                3853
+              ],
+              [
+                19,
+                3522
+              ],
+              [
+                13,
+                3251
+              ],
+              [
+                41,
+                2664
+              ],
+              [
+                9,
+                2559
+              ],
+              [
+                18,
+                2112
+              ],
+              [
+                14,
+                2020
+              ],
+              [
+                12,
+                1945
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 7,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                252395
+              ],
+              [
+                3,
+                2835
+              ],
+              [
+                4,
+                2734
+              ],
+              [
+                5,
+                2575
+              ],
+              [
+                1,
+                814
+              ],
+              [
+                0,
+                783
+              ],
+              [
+                254,
+                8
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 110,
+            "min": 0,
+            "max": 224,
+            "most_common": [
+              [
+                128,
+                70860
+              ],
+              [
+                0,
+                24854
+              ],
+              [
+                2,
+                22037
+              ],
+              [
+                1,
+                20667
+              ],
+              [
+                32,
+                12928
+              ],
+              [
+                64,
+                12575
+              ],
+              [
+                65,
+                12120
+              ],
+              [
+                66,
+                10865
+              ],
+              [
+                34,
+                10197
+              ],
+              [
+                33,
+                9029
+              ],
+              [
+                96,
+                8795
+              ],
+              [
+                97,
+                8770
+              ],
+              [
+                160,
+                8351
+              ],
+              [
+                98,
+                7115
+              ],
+              [
+                99,
+                2790
+              ],
+              [
+                67,
+                2292
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 37,
+            "min": 0,
+            "max": 36,
+            "most_common": [
+              [
+                11,
+                19392
+              ],
+              [
+                13,
+                19172
+              ],
+              [
+                12,
+                19089
+              ],
+              [
+                10,
+                18931
+              ],
+              [
+                14,
+                18535
+              ],
+              [
+                9,
+                18180
+              ],
+              [
+                15,
+                17384
+              ],
+              [
+                8,
+                17372
+              ],
+              [
+                28,
+                8000
+              ],
+              [
+                29,
+                7666
+              ],
+              [
+                30,
+                7578
+              ],
+              [
+                31,
+                7299
+              ],
+              [
+                32,
+                7288
+              ],
+              [
+                35,
+                7203
+              ],
+              [
+                33,
+                7138
+              ],
+              [
+                34,
+                7137
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 248,
+            "min": 0,
+            "max": 255,
+            "most_common": [
+              [
+                0,
+                41462
+              ],
+              [
+                255,
+                7489
+              ],
+              [
+                148,
+                6949
+              ],
+              [
+                48,
+                2534
+              ],
+              [
+                41,
+                2472
+              ],
+              [
+                45,
+                2468
+              ],
+              [
+                128,
+                2420
+              ],
+              [
+                25,
+                2008
+              ],
+              [
+                112,
+                1984
+              ],
+              [
+                29,
+                1977
+              ],
+              [
+                33,
+                1970
+              ],
+              [
+                13,
+                1969
+              ],
+              [
+                149,
+                1956
+              ],
+              [
+                18,
+                1942
+              ],
+              [
+                147,
+                1933
+              ],
+              [
+                90,
+                1829
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 2,
+            "min": 0,
+            "max": 2,
+            "most_common": [
+              [
+                0,
+                65502
+              ],
+              [
+                2,
+                34
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 4,
+            "min": 0,
+            "max": 3,
+            "most_common": [
+              [
+                0,
+                32256
+              ],
+              [
+                1,
+                20251
+              ],
+              [
+                3,
+                7047
+              ],
+              [
+                2,
+                5982
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 79535,
+          "reverse_fmReverse_0x40": 70430,
+          "no_way_fmNOWAY_0x20": 70875
+        },
+        "OMap_landing_markers_254": 8,
+        "OMap_empty_cells_255": 252395
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA6.RSC",
+        "bytes": 6809048,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 43,
+          "objects": 6,
+          "fog": 2,
+          "random_sound": 6,
+          "ambient_sound": 4
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          137,
+          95,
+          60,
+          128,
+          128,
+          128
+        ],
+        "model_totals": {
+          "faces": 531,
+          "vertices": 837,
+          "model_objects": 63,
+          "model_texture_bytes": 713728,
+          "animated_models": 0
+        },
+        "models": [
+          {
+            "index": 0,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 1,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 229,
+            "faces": 140,
+            "objects": 14,
+            "texture_bytes": 124928,
+            "animation": null
+          },
+          {
+            "index": 2,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 55,
+            "faces": 42,
+            "objects": 6,
+            "texture_bytes": 101376,
+            "animation": null
+          },
+          {
+            "index": 3,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 92,
+            "faces": 61,
+            "objects": 6,
+            "texture_bytes": 108032,
+            "animation": null
+          },
+          {
+            "index": 4,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 81,
+            "faces": 60,
+            "objects": 14,
+            "texture_bytes": 129536,
+            "animation": null
+          },
+          {
+            "index": 5,
+            "flags_hex": "0x00000012",
+            "animated": false,
+            "vertices": 151,
+            "faces": 88,
+            "objects": 9,
+            "texture_bytes": 124928,
+            "animation": null
+          }
+        ],
+        "random_sound_lengths": [
+          204798,
+          54016,
+          204798,
+          401408,
+          206336,
+          204288
+        ],
+        "ambient_sound_lengths": [
+          360448,
+          364416,
+          1243136,
+          1243136
+        ],
+        "ambient_rsfx_counts": [
+          2,
+          0,
+          2,
+          2
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\AREA6.GRP",
+        "bytes": 285452
+      }
+    },
+    {
+      "area": "TROPHY",
+      "status": "PASS",
+      "project": {
+        "total_textures": 17,
+        "total_objects": 0,
+        "total_fog": 1,
+        "total_random_sound": 2,
+        "total_ambient_sound": 1,
+        "version": 2,
+        "sky_loaded": 1,
+        "sky_map_loaded": 1,
+        "counts_verified": true,
+        "sequence_verified": true
+      },
+      "PRJ": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\TROPHY.PRJ",
+        "bytes": 553,
+        "encoding": "utf-8",
+        "declared_counts": {
+          "Texture": 17,
+          "Object": 0,
+          "Fog": 1,
+          "Random": 2,
+          "Ambient": 1
+        },
+        "record_counts": {
+          "Texture": 17,
+          "Object": 0,
+          "Fog": 1,
+          "Random": 2,
+          "Ambient": 1
+        },
+        "record_sequences": {
+          "Texture": true,
+          "Object": true,
+          "Fog": true,
+          "Random": true,
+          "Ambient": true
+        },
+        "sky_flags_valid": true,
+        "version_valid": true
+      },
+      "MAP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\TROPHY.MAP",
+        "bytes": 2228224,
+        "size_valid": true,
+        "plane_offsets": {
+          "HMap": 0,
+          "TMap1": 262144,
+          "TMap2": 524288,
+          "OMap": 786432,
+          "FMap": 1048576,
+          "LMap": 1310720,
+          "HMap2": 1572864,
+          "HMapO": 1835008,
+          "FogsMap": 2097152,
+          "AmbMap": 2162688
+        },
+        "plane_histograms": {
+          "HMap": {
+            "distinct_values": 4,
+            "min": 30,
+            "max": 64,
+            "most_common": [
+              [
+                64,
+                261415
+              ],
+              [
+                32,
+                360
+              ],
+              [
+                48,
+                185
+              ],
+              [
+                30,
+                184
+              ]
+            ]
+          },
+          "TMap1": {
+            "distinct_values": 17,
+            "min": 1,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                261360
+              ],
+              [
+                6,
+                190
+              ],
+              [
+                1,
+                136
+              ],
+              [
+                10,
+                96
+              ],
+              [
+                11,
+                96
+              ],
+              [
+                2,
+                72
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                13,
+                32
+              ],
+              [
+                3,
+                24
+              ],
+              [
+                7,
+                24
+              ],
+              [
+                12,
+                24
+              ],
+              [
+                15,
+                24
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                9,
+                4
+              ]
+            ]
+          },
+          "TMap2": {
+            "distinct_values": 17,
+            "min": 1,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                261360
+              ],
+              [
+                6,
+                190
+              ],
+              [
+                1,
+                136
+              ],
+              [
+                10,
+                96
+              ],
+              [
+                11,
+                96
+              ],
+              [
+                2,
+                72
+              ],
+              [
+                16,
+                32
+              ],
+              [
+                13,
+                32
+              ],
+              [
+                3,
+                24
+              ],
+              [
+                7,
+                24
+              ],
+              [
+                12,
+                24
+              ],
+              [
+                15,
+                24
+              ],
+              [
+                14,
+                16
+              ],
+              [
+                4,
+                6
+              ],
+              [
+                5,
+                4
+              ],
+              [
+                9,
+                4
+              ]
+            ]
+          },
+          "OMap": {
+            "distinct_values": 2,
+            "min": 254,
+            "max": 255,
+            "most_common": [
+              [
+                255,
+                262120
+              ],
+              [
+                254,
+                24
+              ]
+            ]
+          },
+          "FMap": {
+            "distinct_values": 12,
+            "min": 0,
+            "max": 128,
+            "most_common": [
+              [
+                0,
+                260549
+              ],
+              [
+                128,
+                1023
+              ],
+              [
+                1,
+                202
+              ],
+              [
+                2,
+                176
+              ],
+              [
+                3,
+                154
+              ],
+              [
+                24,
+                10
+              ],
+              [
+                64,
+                9
+              ],
+              [
+                8,
+                6
+              ],
+              [
+                16,
+                6
+              ],
+              [
+                65,
+                5
+              ],
+              [
+                67,
+                3
+              ],
+              [
+                66,
+                1
+              ]
+            ]
+          },
+          "LMap": {
+            "distinct_values": 33,
+            "min": 0,
+            "max": 35,
+            "most_common": [
+              [
+                15,
+                32660
+              ],
+              [
+                14,
+                32598
+              ],
+              [
+                12,
+                32570
+              ],
+              [
+                10,
+                32500
+              ],
+              [
+                11,
+                32402
+              ],
+              [
+                13,
+                32355
+              ],
+              [
+                9,
+                32270
+              ],
+              [
+                8,
+                32261
+              ],
+              [
+                0,
+                2044
+              ],
+              [
+                28,
+                52
+              ],
+              [
+                31,
+                51
+              ],
+              [
+                30,
+                42
+              ],
+              [
+                33,
+                40
+              ],
+              [
+                34,
+                38
+              ],
+              [
+                29,
+                32
+              ],
+              [
+                35,
+                31
+              ]
+            ]
+          },
+          "HMap2": {
+            "distinct_values": 7,
+            "min": 76,
+            "max": 112,
+            "most_common": [
+              [
+                112,
+                260392
+              ],
+              [
+                109,
+                1022
+              ],
+              [
+                80,
+                360
+              ],
+              [
+                96,
+                185
+              ],
+              [
+                78,
+                168
+              ],
+              [
+                76,
+                16
+              ],
+              [
+                108,
+                1
+              ]
+            ]
+          },
+          "HMapO": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                262144
+              ]
+            ]
+          },
+          "FogsMap": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                65536
+              ]
+            ]
+          },
+          "AmbMap": {
+            "distinct_values": 1,
+            "min": 0,
+            "max": 0,
+            "most_common": [
+              [
+                0,
+                65536
+              ]
+            ]
+          }
+        },
+        "index_checks": {
+          "TMap1_invalid_values": [],
+          "TMap2_invalid_values": [],
+          "OMap_invalid_values": [],
+          "FogsMap_invalid_values": [],
+          "AmbMap_invalid_values": [],
+          "all_pass": true
+        },
+        "FMap_flag_counts": {
+          "water_fmWater_0x80": 1023,
+          "reverse_fmReverse_0x40": 18,
+          "no_way_fmNOWAY_0x20": 0
+        },
+        "OMap_landing_markers_254": 24,
+        "OMap_empty_cells_255": 262120
+      },
+      "RSC": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\TROPHY.RSC",
+        "bytes": 1244244,
+        "rsc_size_valid": true,
+        "counts": {
+          "textures": 17,
+          "objects": 0,
+          "fog": 1,
+          "random_sound": 2,
+          "ambient_sound": 1
+        },
+        "counts_match_prj": true,
+        "sky_channels": [
+          56,
+          88,
+          112,
+          128,
+          128,
+          128
+        ],
+        "model_totals": {
+          "faces": 0,
+          "vertices": 0,
+          "model_objects": 0,
+          "model_texture_bytes": 0,
+          "animated_models": 0
+        },
+        "models": [],
+        "random_sound_lengths": [
+          230912,
+          191744
+        ],
+        "ambient_sound_lengths": [
+          116736
+        ],
+        "ambient_rsfx_counts": [
+          2
+        ],
+        "trailing_bytes": 0,
+        "rsc_consumed_exactly": true
+      },
+      "GRP": {
+        "path": "C:\\Users\\Mr Kalthen Roy Man\\Desktop\\Carnivores\\HUNTDAT\\AREAS\\TROPHY.GRP",
+        "bytes": 285452
+      }
+    }
+  ],
+  "notes": [
+    "PASS means structural parsing completed, indexes stayed within loaded PRJ counts, and the RSC parser consumed the file exactly.",
+    "GRP files are size-recorded only; their internal format is not decoded by this tool.",
+    "The parser mirrors the original loader's fixed-width little-endian Win32 records and should be checked against a working original executable before changing assets.",
+    "The original loader ignores ReadFile success/byte counts; this audit is intentionally stricter and does not modify any input."
+  ]
+}
